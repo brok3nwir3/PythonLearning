@@ -1,4 +1,4 @@
-#My Hello World Program, by Phil
+#My Hello World Program, by Phil.
 print("Hello, World!")
 
 #Testing...
