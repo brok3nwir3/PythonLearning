@@ -1,2 +1,2 @@
 # PythonLearning
-Practicing Python with friends.
+Practicing Python with friends
