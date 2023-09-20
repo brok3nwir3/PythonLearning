@@ -54,19 +54,19 @@
 # Can you figure out what her password is, without printing the value for "password?"
 # Also, can you add descriptive comments to each of the steps she took?
 #Step1 - ?
-value1 = 452
-value2 = 207
-value3 = 339
-value_multi = value1 * value2 * value3
+v1 = 452
+v2 = 207
+v3 = 339
+v_m = v1 * v2 * v3
 #Step2 - ?
-value_string = str(value_multi)
-value_index = value_string[1:6]
-value_int = int(value_index)
+v_s = str(v_m)
+v_d = v_s[1:6]
+v_i = int(v_d)
 #Step3 - ?
-value_format = format(value_int, 'b')
+v_f = format(v_i, 'b')
 #Step4 - ?
-value_list = ['se', 'agu', 'l','l']
-value_list.append(value_format)
+v_l = ['se', 'agu', 'l','l']
+v_l.append(v_f)
 #Step5 - ?
-value_concat = value_list[0]+value_list[1]+value_list[2]+value_list[3]+value_list[4]
-password = value_concat[:10]
+v_c = v_l[0]+v_l[1]+v_l[2]+v_l[3]+v_l[4]
+password = v_c[:10]
