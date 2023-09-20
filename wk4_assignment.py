@@ -3,14 +3,14 @@
 # Bob hates reading documentation though.
 # Help him finish his dice rolling program, using the documentation for the random module.
 # https://www.w3schools.com/python/module_random.asp
-import random
-print("Your dice roll is... ")
+#import random
+#print("Your dice roll is... ")
 
 # Q2
 # Now that Bob's dice roller is working, set the range to only include numbers 1-20.
 # If the dice roll is a 1, a special "CRIT FAIL!" message should print out.
 # If the dice roll is a 20, a special "CRIT SUCCESS!" message should print out.
-# If the dic roll is any other number, the normal print statement should be used.
+# If the dice roll is any other number, the normal print statement should be used.
 
 # Q3
 # Alice loves petting animals. She learned about a random module that selects a choice from a list.
@@ -22,20 +22,51 @@ print("Your dice roll is... ")
 # Alice was reading some beautiful poetry, but there was a big problem...
 # The poem was about lizards and beetles, when it really should've been about seagulls.
 # Help Alice write a program to **replace** all instances of the words "lizards" and "beetles."
-poem = "Lizards are sly, like wizards. Beetles are dangerous, like needles."
+#poem = "Lizards are sly, like wizards. Beetles are dangerous, like needles."
 
 # Q6
 # Bob was at work and noticed some crazy person submitted a bunch of code using shorthand if/else statements.
-# Help Bob rewrite the code.
-print("Yes") if 5 > 2 else print("No") 
+# Help Bob rewrite the code so it's in a normal format.
+#print("Yes") if 5 > 2 else print("No") 
 
 # Q7
 # Alice created a small program that lets a user enter their favorite animal.
 # However, she'd like to turn the program into a guessing game.
 # If a user can guess her favorite animal, they'll get a special message.
 # Modify her program, to ask a user to guess her favorite animal.
-# If the users guess is correct, they should see a special message. 
-alice_fave = "seagull"
-special_message = "You clearly know me well!"
-user_choice = input("Enter your favorite animal:")
-print("Your favorite animal is " + user_choice)
+# If the users guess is correct, they should see her special message.
+# All other cases should return the message "Sorry. Incorrect."
+#alice_fave = "seagull"
+#special_message = "Correct! You clearly know me well!"
+#user_choice = input("Enter your favorite animal:")
+#print("Your favorite animal is " + user_choice)
+
+# Q8
+# Bob made a program that formats text and then prints it.
+# Help him add the "$" to his program.
+#price = 49
+#txt = "The price is {} dollars"
+#print(txt.format(price))
+
+# Q9
+# Someone from cybersecurity told Alice she shouldn't write her passwords in plaintext.
+# Alice wrote this program to conceal her password.
+# Can you figure out what her password is, without printing the value for "password?"
+# Also, can you add descriptive comments to each of the steps she took?
+#Step1 - ?
+value1 = 452
+value2 = 207
+value3 = 339
+value_multi = value1 * value2 * value3
+#Step2 - ?
+value_string = str(value_multi)
+value_index = value_string[1:6]
+value_int = int(value_index)
+#Step3 - ?
+value_format = format(value_int, 'b')
+#Step4 - ?
+value_list = ['se', 'agu', 'l','l']
+value_list.append(value_format)
+#Step5 - ?
+value_concat = value_list[0]+value_list[1]+value_list[2]+value_list[3]+value_list[4]
+password = value_concat[:10]
