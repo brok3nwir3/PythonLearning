@@ -29,3 +29,13 @@ poem = "Lizards are sly, like wizards. Beetles are dangerous, like needles."
 # Help Bob rewrite the code.
 print("Yes") if 5 > 2 else print("No") 
 
+# Q7
+# Alice created a small program that lets a user enter their favorite animal.
+# However, she'd like to turn the program into a guessing game.
+# If a user can guess her favorite animal, they'll get a special message.
+# Modify her program, to ask a user to guess her favorite animal.
+# If the users guess is correct, they should see a special message. 
+alice_fave = "seagull"
+special_message = "You clearly know me well!"
+user_choice = input("Enter your favorite animal:")
+print("Your favorite animal is " + user_choice)
