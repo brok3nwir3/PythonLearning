@@ -142,7 +142,7 @@ while (count < 7):
 # Q14
 # What will the following print statement return?
 '''
-num1 = 18
+num1 = 19
 num2 = 5
 result = num1 % num2
 print(result)
@@ -150,7 +150,7 @@ print(result)
 # A) 15
 # B) 2
 # C) 13
-# D) 3
+# D) 4
 
 # Q15
 # What pattern is made by the following code?
