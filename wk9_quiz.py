@@ -1,4 +1,4 @@
-# Week 9 - A comprehensive mulitple choice quiz.
+# Week 9 - A somewhat comprehensive mulitple choice quiz.
 
 # This midterm is for your benefit. If you do not know an answer, make your best guess.
 # When the answer key has been dispersed, check your score and see what you missed.
@@ -81,7 +81,7 @@ print(f[3:5])
 # A) True
 # B) False
 
-# Q8 What will be returned by the following code?
+# Q9 What will be returned by the following code?
 '''
 fruits = ["apple", "banana", "cherry", "kiwi", "grape", "lemon"]
 print(fruits[-2])
@@ -92,7 +92,7 @@ print(fruits[-2])
 # D) kiwi
 # E) cherry
 
-# Q9
+# Q10
 # What is the programming term for combining two items?
 
 # A) slicing
@@ -101,8 +101,8 @@ print(fruits[-2])
 # D) temping
 # E) iterating
 
-# Q10
-# What is 'w' in the following code?
+# Q11
+# What does 'w' contain, in the following code?
 '''
 w = ["abc", 34, True, 40, "male"] 
 '''
@@ -111,8 +111,8 @@ w = ["abc", 34, True, 40, "male"]
 # C) set
 # D) dictionary
 
-# Q11
-# What is 'h' in the following code?
+# Q12
+# What does 'h' contain, in the following code?
 '''
 h = {
   "brand": "Ford",
@@ -125,7 +125,7 @@ h = {
 # C) set
 # D) dictionary
 
-# Q12
+# Q13
 # How many times will the word "BOOM" be printed?
 # And what is the final value of 'count'?
 '''
@@ -139,7 +139,7 @@ while (count < 7):
 # C) 3, 6
 # D) 4, 8
 
-# Q13
+# Q14
 # What will the following print statement return?
 '''
 num1 = 18
@@ -152,7 +152,7 @@ print(result)
 # C) 13
 # D) 3
 
-# Q14
+# Q15
 # What pattern is made by the following code?
 '''
 for i in range(5):
@@ -181,7 +181,7 @@ for i in range(5):
 #  ***
 # ****
 
-# Q15
+# Q16
 # What is the starting value for 'n' ?
 '''
 x = range(4)
@@ -193,7 +193,7 @@ for n in x:
 # C) 0
 # D) NULL
 
-# Q16
+# Q17
 # What will the final value of 'n' be?
 # What will the final value of 't' be?
 '''
@@ -210,7 +210,7 @@ print(t)
 # C) 8, 15
 # D) 15, 8
 
-# Q17
+# Q18
 # What should replace 'XXXXXX' in the following code, to make it work?
 '''
 XXXXXX my_function():
@@ -221,13 +221,13 @@ XXXXXX my_function():
 # C) import
 # D) funct
 
-# Q18
+# Q19
 # T/F: A while loop is used when the number of iterations is known.
 
 # A) True
 # B) False
 
-# Q19
+# Q20
 # Which of the following is not a built in Python data type?
 
 # A) bool
@@ -236,7 +236,7 @@ XXXXXX my_function():
 # D) int
 # E) double
 
-# Q20
+# Q21
 # Which choice explains what the .split() method will do in the following code?
 '''
 txt = "seagulls are known for their great style"
@@ -249,7 +249,7 @@ print(x)
 # D) Split the string into a list, using whitespace as the separator.
 # E) Split the string into a single variable, because no separator is provided.
 
-# Q21
+# Q22
 # Which of the following choices should be added to the IF statement,
 # in order to trigger the print statment.
 '''
