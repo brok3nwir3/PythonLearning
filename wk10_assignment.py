@@ -6,7 +6,7 @@
 # Q1
 # Import the regex module and give the alias 'reggie'
 # Leave the import uncommented; we'll use it through this assignment.
-import re as reggie
+
 
 # Q2
 # Write a print statement to list all the functions
