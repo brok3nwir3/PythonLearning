@@ -1,5 +1,46 @@
 # Week 10 - Assignment Answer Key
 
+# AVOID PEEKING AHEAD OF TIME!
+
+
+
+
+
+
+
+
+
+
+# Scroll down.
+# |
+# |
+# v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Q1
 # import re as reggie
 

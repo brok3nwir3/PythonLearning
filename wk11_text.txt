@@ -1,0 +1,8 @@
+dog
+bear
+cat
+llama
+elephant
+monkey
+zebra
+seagull
