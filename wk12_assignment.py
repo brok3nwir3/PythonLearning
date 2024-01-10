@@ -36,4 +36,5 @@
 # Q6
 # Alice needs a function to call, which will print the current system time.
 # She's heard rumors of a module that might help.
+# This functionn should not take any paramaters.
 
