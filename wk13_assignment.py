@@ -1,4 +1,4 @@
-# Week 12 - Iterators, built-in functions, 2D arrays, and exception handling.
+# Week 13 - Iterators, built-in functions, and exception handling.
 
 # Q1
 # Alice wrote the code below,
