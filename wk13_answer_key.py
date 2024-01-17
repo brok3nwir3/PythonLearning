@@ -57,7 +57,7 @@ for x in animal:
 
 # Q3
 '''
-Lists, tuples, dictionaries, and sets are all iterable objects
+Lists, tuples, dictionaries, and sets are all iterable container objects
 '''
 
 # Q4
