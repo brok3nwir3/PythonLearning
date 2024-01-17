@@ -36,7 +36,7 @@ animal = ("llama", "seal", "wolf", "seagull", "bear", "snake", "platypus", "eagl
 
 # Q5
 # Bob has a block of code for taking user input.
-# However, he wants to his code to only allow the user to enter specific characters.
+# However, he wants his code to only allow the user to enter specific characters.
 # The user should only be allowed to enter "x" or "o",
 # any other characters should force the user to enter new input.
 
