@@ -1,18 +1,18 @@
 # In this program we took our pseudo-code algorithm for the game of Hide & Seek,
 # and turned it into an actual program, which mimics many aspects of the actual game.
 
-# NOTE: This code is not in a working state, due to time constraints. Check back later.
-
-global hiders_names, hidden_status, count_down, eyes_covered, players_hidden
-
+import random
 hiders = 10
+#need to make this a dictionary...
 hiders_names = ['Larry', 'Susan', 'Elvis', 'Chad', 'George', 'Albert', 'Sara', 'Todd', 'Sally', 'Tina']
 hidden_status = [False, False, False, False, False, False, False, False, False, False]
+hider_locations = []
+locations = ['tree', 'bench', 'bush', 'trash cans', 'slide', 'sandbox', 'swings', 'cars', 'tables', 'playground']
 seekers = 1
 seekers_names = ['Julia']
 count_down = 20
 eyes_covered = False
-players_hidden = False
+all_hidden = False
 
 def vision():
     if eyes_covered == True:
@@ -21,11 +21,11 @@ def vision():
         print("My eyes aren't covered!")
 
 def hide():
-    if players_hidden == False:
+    if all_hidden == False:
         for i in hiders_names:
             hidden_status[i] = True
-        players_hidden = True
-    #print(hidden_status)
+            #hider location update
+        all_hidden = True
 
 def seek():
     print("This is a placeholder.")
