@@ -100,4 +100,4 @@ print(bob_2d)
 # fixed the issue that occurs using the naive method.
 
 # Q7
-
+# Python uses shallow lists, so the naive method results in all the indices of an array to point to the same object.
