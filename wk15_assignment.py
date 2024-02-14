@@ -4,14 +4,16 @@
 # Bobs code should print 1, but it's currently throwing an error.
 # Help Bob fix the code.
 
-# cakes_made = 0
-# def make_cake():
-#   cakes_made += 1
-# make_cake()
-# print(cakes_made)
+cakes_made = 0
+def make_cake():
+  global cakes_made
+  cakes_made += 1
+make_cake()
+make_cake()
+print(cakes_made)
 
 # Q2
-# Alice needs help making a 1D and 2D array using the naive method.
+# Alice needs help making a 1D using the naive method.
 # Her 1D array needs to be 4 columns in size, with each entry filled with a '1'.
 # Help Alice make the 1D array.
 # Print the array to make sure it looks alright.
