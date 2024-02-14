@@ -54,7 +54,6 @@ make_cake()
 print(cakes_made)
 
 # Q2
-rows = 4
 columns = 4
 alice_1d = [1]*columns
 print(alice_1d)
