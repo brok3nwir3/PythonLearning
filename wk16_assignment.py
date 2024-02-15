@@ -73,8 +73,6 @@ import requests
 
 import requests
 import json
-response = requests.get("https://zenquotes.io/api/random")
-print(response.json())
 
 # Q7
 # Compare the printed output from Q6 to what you see when you make a manual API call to the URL via browser.
