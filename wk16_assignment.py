@@ -73,17 +73,11 @@ import requests
 
 import requests
 import json
-
+response = requests.get("https://zenquotes.io/api/random")
+print(response.json())
 
 # Q7
-
-
-# def get_quote():
-#         response = requests.get("https://zenquotes.io/api/random")
-#         json_data = json.loads(response.text)
-#         json_parsed = json_data[0]['q'] + " -" + json_data[0]['a']
-#         #print(json_parsed)
-#         return(json_parsed)
-# print(get_quote())
-
+# Compare the printed output from Q6 to what you see when you make a manual API call to the URL via browser.
+# What do you notice?
+# Do some googling for the zenquotes API documentation. It may help explain the output.
 

@@ -83,3 +83,12 @@ response = requests.get("https://zenquotes.io/api/random")
 print(response.json())
 
 # Q7
+# Both the manual request and programmatic request return specific fields.
+# The Zenquote API documentation can be found here:
+# https://docs.zenquotes.io/zenquotes-documentation/
+# According to the documentation...
+# q = quote text
+# a = author name
+# i = author image (key required)
+# c = character count
+# h = pre-formatted HTML quote
