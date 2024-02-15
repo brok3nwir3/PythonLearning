@@ -1,4 +1,10 @@
-# Week 15 - A short review assignment.
+# Week 15 - A short Python quiz and a review assignment.
+
+
+# To start this week off, we'll be taking a short Python quiz on the W3 website.
+# Navigate to the following page, and check your knowledge of the basics:
+# https://www.w3schools.com/python/python_quiz.asp
+
 
 # Q1
 # Bobs code should print 1, but it's currently throwing an error.
