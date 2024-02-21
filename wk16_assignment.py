@@ -55,6 +55,7 @@ sunday = 86.7
 # Congrats! You've manually made your first API call. Try refreshing the page to make another call.
 
 
+
 # Q5
 # Alice wants to check whether the page is up or not.
 # She started by importing a necessary module.
@@ -73,6 +74,8 @@ import requests
 
 import requests
 import json
+
+
 
 # Q7
 # Compare the printed output from Q6 to what you see when you make a manual API call to the URL via browser.
