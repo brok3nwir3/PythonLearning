@@ -14,10 +14,10 @@
 
 # Q2
 # Bob was hired at the local weather station.
-# His first task is to create a 2D array for some recent weather data.
+# His first task is to manually create a 2D array for some recent weather data.
 # The company has provided him with the data from last week.
 # Help bob create a 2D array for the data.
-# Hint: Don't forget about the .append() function for arrays.
+# Hint: Don't forget about the .append() function for arrays. ...List comprehension isn't required for this question.
 
 # Daily data from 1PM, during the past week.
 monday = 86.4
