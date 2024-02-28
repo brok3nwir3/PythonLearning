@@ -49,7 +49,7 @@ print("Hello CLI!")
 import requests
 import json
 response = requests.get("https://zenquotes.io/api/random")
-print(py_obj)
+print(response)
 '''
 
 # Q6
@@ -63,7 +63,7 @@ print(py_obj)
 # Q7
 # Bob saw Alice's code from Q6 and thinks it can be improved.
 # Alice's code returns 'q' but should also include 'a' on the same line.
-# Bob wants to also add a hyphen '-' character to made the line look perfect.
+# Bob wants to also add a hyphen '-' character to make the line look perfect.
 # Expected output: "Some Quote." -John Smith
 # Help Bob update the code.
 

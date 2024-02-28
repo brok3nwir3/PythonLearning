@@ -21,8 +21,5 @@
 # 2) Can you explain the code, and answer questions about the code? (40 Points)
 #   a) ***TBD***
 # 3) Does your game have any bonus flavor? (10 Points)
-#   a) ASCII Art?
-#   b) Screen refresh?
-#   c) Screen refresh delays?
-#   d) Other fancy features?
-#   e) ***TBD***
+#   a) Does the API include formatting?
+#   b) ***TBD***
