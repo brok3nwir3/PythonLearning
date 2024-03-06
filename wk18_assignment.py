@@ -20,6 +20,7 @@
 # Alice saw Bobs code, but wants to rewrite the code to simplify the module calls.
 # Alice would prefer to write "test1()" rather than "hello_world.test1()".
 # Help Alice update the main file (here), to make the module call in the specified way.
+# Hint: This other method depends on how the "import" line if structured.
 
 
 
@@ -39,7 +40,7 @@
 
 
 # Q5
-# Now that the .env file has been successfully created, Bob needs to add it to his API request string.
+# Now that the .env file has been successfully created, Bob needs to add the secret to his API request string.
 # Read the documentation for the free API, here: https://malshare.com/doc.php
 # Help Bob write the URL string using the API key from the environment file.
 
