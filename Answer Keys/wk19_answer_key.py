@@ -100,6 +100,8 @@ print(sys.getrefcount(numbers))
 # Q8
 # The code demonstrates the difference between the plus operator (concatenate)...
 # and the comma operator (multiple arguments).
+# In other words, using comma makes the print statement treat the items as arguments in a tuple.
+# This means the 'x,y' are two distinct elements and will be seperated by a space when printed.
 
 # Q9
 # This bit of code sets an index that starts at 1...
