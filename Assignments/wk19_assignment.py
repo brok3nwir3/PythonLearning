@@ -28,7 +28,7 @@ list_of_numbers = [
 # The function takes in two arguments.
 # The first argument is the data to test.
 # The second argument is the the data type to check against.
-# Alice wants to use this function to make her own function.
+# Alice wants to use this function to make her own function, called type_check().
 # Her new function will check whether the test data is an integer.
 # If the data is not an integer, her code will run the type() function to determine the data type.
 # Help Alice create the new function.
@@ -46,7 +46,7 @@ expected output...
 "Non-integer type found: 
 <class 'str'>"
 
-type_check(test1)
+type_check(test2)
 expected output...
 This data is an integer.
 '''
