@@ -15,11 +15,3 @@ def catimage():
     py_obj = json.loads(response.text)
     json_parsed = py_obj[0]['url']
     webbrowser.open(json_parsed, new=0, autoraise=True)
-    #print(json_parsed)
-
-catimage()
-
-# url = "https://cataas.com/cat/"
-# url = "https://api.thecatapi.com/v1/images/search?api_key="
-# cat_page = url + CAT_IMAGE_TOKEN
-# webbrowser.open(cat_page, new=0, autoraise=True)
