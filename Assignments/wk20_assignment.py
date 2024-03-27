@@ -105,7 +105,7 @@ c) "python objects are defined by a keyword called ___."
 # Q9
 # Bob saw Alice's update Person class and thinks it needs a new function.
 # Instead of having to manually printing out each object attribute, Bob wants to make a function that does this.
-# The new class function should be called stats().
+# The new class function should be called info().
 # Help Bob make the new function.
 # Bonus: Have the function use f-strings.
 # Expected output for person1...
