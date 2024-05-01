@@ -29,4 +29,19 @@
 # & d3Crypt n PyTh0n!
 
 # Grading Rubric...
-# TBD
+# 1) Does the program work? (60 Points)
+#   a) The program reads a local text file.
+#   b) Converts/unconverts strings to binary/hex.
+#   c) Encrypts/decrypts the strings.
+#   d) Writes a new local file with the encrypted data.
+#   e) 
+# 2) Can you explain the code, and answer questions about the code? (40 Points)
+#   a) 
+#   b) 
+#   c) 
+#   d) 
+#   e) 
+# 3) Does your program have any bonus flavor? (10 Points)
+#   a) Does the program include ASCII art or fun formatting?
+#   b) File naming format (bonus points).
+#   c) 

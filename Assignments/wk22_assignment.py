@@ -21,7 +21,7 @@ class Customer:
 '''
 
 # Q3
-# Alice is experimenting with Bob's code (Q1).
+# Alice is experimenting with Bob's code (Q2).
 # She wants to save Bob's class as a stand-alone file and then import it, similar to a module.
 # After importing the file, she wants to add a new customer (c2) named Sally, age 29.
 # Finally, Alice wants to call the info function for the new user from her main Python file (here).
@@ -59,7 +59,8 @@ print(car1)
 # Q6
 # Alice wants to write a lambda function that checks whether a number is even.
 # The lambda should be followed by a print statement.
-# Example output: If your number returns 0, then it is even, your result is: 1
+# Expected output (for test_num = 7)...
+# "If your number returns 0, then it is even, your result is: 1"
 
 test_num = 7
 

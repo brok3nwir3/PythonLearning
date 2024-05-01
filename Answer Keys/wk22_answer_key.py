@@ -48,6 +48,7 @@
 car1 = Car("Honda", "Civic", 2012)
 In this line of code, car1 is an example of an _object_ and Civic is an example of a _attribute_.
 '''
+# Note: Attribute or properties are both acceptable answers for the second blank.
 
 # Q2
 class Customer:
@@ -62,7 +63,7 @@ c1 = Customer("Albert", 52)
 c1.info()
 
 # Q3
-from wk22_class import Customer
+from wk22_q3 import Customer
 
 c2 = Customer("Sally", 29)
 c2.info()
@@ -84,6 +85,7 @@ print(car1)
 # Q5
 # Python lambda functions are described as "anonymous" because they have no defined name,
 # A normal function includes a name. For example: myfunc()
+# Lambdas store everything within a variable.
 
 # Q6
 test_num = 7
