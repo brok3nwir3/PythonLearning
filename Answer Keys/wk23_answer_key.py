@@ -71,13 +71,8 @@ x.print_property()
 # Q5
 class condo(property):
     def __init__(self, address_num, street, city, state, zipcode, rent):
-        self.address_num = address_num
-        self.street = street
-        self.city = city
-        self.state = state
-        self.zipcode = zipcode
-        self.rent = rent
         super().__init__(address_num, street, city, state, zipcode)
+        self.rent = rent
         
 
 x = condo(123, "East Street", "Columbus", "Ohio", 98765, 1500)
@@ -95,14 +90,9 @@ x.print_property()
 # Q7
 class condo(property):
     def __init__(self, address_num, street, city, state, zipcode, rent, lease_term):
-        self.address_num = address_num
-        self.street = street
-        self.city = city
-        self.state = state
-        self.zipcode = zipcode
+        super().__init__(address_num, street, city, state, zipcode)
         self.rent = rent
         self.__lease_term = lease_term
-        super().__init__(address_num, street, city, state, zipcode)
         
 
 x = condo(123, "East Street", "Columbus", "Ohio", 98765, 1500, 12)

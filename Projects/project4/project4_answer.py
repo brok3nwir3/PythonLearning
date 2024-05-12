@@ -1,14 +1,14 @@
-# Custom Encryption Program
-# (Project4)
+# Encryption Program (Project 4)
 # Author: Phil van der Linden
-# Date: 05/01/2024
+# Date: 05/12/2024
 
+# Note: The target file for encryption must have all new lines removed.
+
+from cryptography.fernet import Fernet
 import os
-import rsa
 import time
-from ast import literal_eval
 
-print("Running custom encryption program...\n")
+print("Running encryption program...\n")
 
 # Select a mode.
 legal_selection = False
@@ -26,18 +26,15 @@ while legal_selection == False:
 ### ENCRYPTION MODE ###
 
 if mode == '1':
-    print("Saving a new private key and public key to current directory...\n")
-    publicKey, privateKey = rsa.newkeys(512)
-    print("Public key: ", publicKey)
-    print("Privat key: ", privateKey)
+    print("Saving a new Fernet key to current directory...\n")
+    fernet_key = Fernet.generate_key() # Create a Fernet key.
+    fernet = Fernet(fernet_key) # Set the new Fernet key.
+    print("Fernet key saved.")
     time.sleep(1)
 
-    pub_key_file = open('public_key.txt', 'w')
-    pub_key_file.write(str(publicKey))
-    pub_key_file.close()
-    priv_key_file = open('private_key.txt', 'w')
-    priv_key_file.write(str(privateKey))
-    priv_key_file.close()
+    fernet_key_file = open('fernet_key.txt', 'wb')
+    fernet_key_file.write(fernet_key)
+    fernet_key_file.close()
 
     path = os.getcwd()
     dir_list = os.listdir(path)
@@ -57,36 +54,47 @@ if mode == '1':
     text_file = open(file_selection, "r")
     content = text_file.read()
 
+    # Convert the original text to hexadecimal.
     hex_str = ""
     for char in content:
         hex_str += hex(ord(char))
 
-    enc_message = rsa.encrypt(hex_str.encode(), publicKey)
+    enc_message = fernet.encrypt(hex_str.encode())
     time.sleep(1)
-    print("original string: ", hex_str)
+    print("\nOriginal string as hex: ", hex_str)
     time.sleep(1)
-    print("encrypted string: ", enc_message)
+    print("\nEncrypted Fernet string: ", enc_message)
 
     enc_file = open('encrypted.txt', 'wb')
     enc_file.write(enc_message)
     enc_file.close()
+    print("\nEncrypted file saved.")
 
 ### DECRYPTION CODE ###
 
 else:
-    print("Using local key files and encrypted text file...\n")
+    print("\nUsing local key files and encrypted text file...")
     time.sleep(1)
 
-    pub_key_file = open('public_key.txt', 'r')
-    pub_key_data = pub_key_file.read()
-    priv_key_file = open('private_key.txt', 'r')
-    priv_key_data = priv_key_file.read()
+    fernet_key_file = open('fernet_key.txt', 'rb')
+    fernet_key_data = fernet_key_file.read()
     enc_file = open('encrypted.txt', 'rb')
     enc_file_data = enc_file.read()
 
-    #keyPriv = rsa.ImportKey(priv_key_data)
-    #keyPriv = rsa.PrivateKey.load_pkcs1(priv_key_data)
+    restore_key = Fernet(fernet_key_data) # Set the key with Fernet.
+    dec_message = restore_key.decrypt(enc_file_data) # Decrypt the data with the Fernet key.
+    print("\nHex string extracted.")
+    time.sleep(1)
 
-    dec_message = rsa.decrypt(enc_file_data, priv_key_data).decode()
-    #dec_message = rsa.decrypt(ast.literal_eval(str(priv_key_data)))
-    print("decrypted string: ", dec_message)
+    # Decode hexadecimal characters and remove any hex identifiers.
+    temp = dec_message.decode().replace('0x', '')
+    ascii_str = ""
+    for i in range(0, len(temp), 2):
+        part = temp[i : i + 2]
+        ch = chr(int(part, 16))
+        ascii_str += ch
+    print("\nDecrypted file saved.")
+
+    dec_file = open('decrypted.txt', 'w')
+    dec_file.write(ascii_str)
+    dec_file.close()

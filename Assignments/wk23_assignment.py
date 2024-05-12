@@ -58,8 +58,8 @@ class property():
 
 # Q5
 # Alice decided she wants to update the condo class (Q4).
-# Read the section called 'The super() Function' from this article Alice found...
-# https://www.geeksforgeeks.org/inheritance-in-python/
+# Read about the 'The super() Function' in this article Alice found...
+# https://www.geeksforgeeks.org/python-super/
 # Replace the 'pass' keyword in the condo class, and add the required attributes, plus the 'super' function.
 # The updated class should also include a new attribute called 'rent'.
 # Help Alice update the condo class and add a new condo entry.
@@ -117,10 +117,10 @@ class property():
 # Alice is practicing with Python lambdas.
 # She wants to write a lambda (is_greater) that checks whether a given number is greater than 100.
 # Inside the lambda she also wants to include text that will print.
-# However, she does not want to use any print('blah') or print(f'blah') in her lambda.
+# However, she wants to include the text to be printed within her lambda.
 # Alice wrote two test cases below.
-# The first test should return 'less than 100'.
-# The second test should return 'greater than 100'
+# The first test should return: 'less than 100'.
+# The second test should return: 'greater than 100'
 # Help Alice create the lambda.
 
 '''
