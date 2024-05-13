@@ -1,4 +1,4 @@
-# Week 23 - Shallow vs deep copy, copy module, 
+# Week 23 - Shallow vs deep copy, copy module, and more w/ classes.
 
 # Q1
 # Bob needs help with a homework question regarding copying variables.
