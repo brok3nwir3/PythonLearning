@@ -4,9 +4,9 @@
 
 # Note: The target file for encryption must have all new lines removed.
 
-from cryptography.fernet import Fernet
-import os
-import time
+from cryptography.fernet import Fernet      # The encryption library we're using.
+import os                                   # Used for some Linux OS commands.
+import time                                 # Used for visual delays as the code runs.
 
 print("Running encryption program...\n")
 
@@ -45,7 +45,7 @@ if mode == '1':
     legal_selection = False
     while legal_selection == False:
         file_choice = input("\nWhich text file would you like to encrypt?\n")
-        if file_choice[-4:] != ".txt":
+        if file_choice[-4:] != ".txt": # Check for a .txt file extension.
             print("Only .txt files are allowed.")
         else:
             legal_selection = True
@@ -54,12 +54,14 @@ if mode == '1':
     text_file = open(file_selection, "r")
     content = text_file.read()
 
-    # Convert the original text to hexadecimal.
+    # Convert the original text to hexadecimal, one character at a time.
     hex_str = ""
     for char in content:
         hex_str += hex(ord(char))
 
+    # Encrypt the hex string with Fernet, and specify the string as hex.
     enc_message = fernet.encrypt(hex_str.encode())
+
     time.sleep(1)
     print("\nOriginal string as hex: ", hex_str)
     time.sleep(1)
@@ -92,7 +94,7 @@ else:
     for i in range(0, len(temp), 2):
         part = temp[i : i + 2]
         ch = chr(int(part, 16))
-        ascii_str += ch
+        ascii_str += ch # Build the ASCII string two characters at a time.
     print("\nDecrypted file saved.")
 
     dec_file = open('decrypted.txt', 'w')
