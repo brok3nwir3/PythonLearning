@@ -18,7 +18,7 @@
 # 2. A student class.
 # 3. An employee class.
 # 4. A professor class.
-# 5. An adjust class.
+# 5. An adjunct class.
 # 6. A student_worker class.
 # 7. An alumni class.
 

@@ -1,0 +1,9 @@
+password
+hello
+12345
+elephant
+bagel
+samurai
+kali
+egg
+seagull
