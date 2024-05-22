@@ -26,14 +26,16 @@ with open('/etc/passwd') as f:
 
 # Q2
 # Bob discovered that Python has a built in iterator function called iter().
-# Bob tested the the function with the following code...
+# The function can also use next() to manually iterate through and iterator.
+# Bob tested the the functions with the following code...
 '''
 items = [1, 2, 3, 4]
 test = iter(items)
 print(test)
 print(next(test), next(test), next(test), next(test))
 '''
-# Bob wants to create another function using the built-in iterator function.
+# Bob wants to create another function using the built-in iterator functions.
+# The manual code above should be turned into a function that can be used against any iterable.
 # Help Bob finish his code.
 '''
 def next_iterator(iterable):
@@ -47,18 +49,18 @@ next_iterator(items)
 # https://www.geeksforgeeks.org/generators-in-python/
 # Generators use the 'yield' keyword instead of 'return'.
 # He copied the code from the first example in the article.
-# He wants his spin-off program to generator yield the first exponents for a number (i.e. a^2, a^3, and a^4).
+# He wants his spin-off generator program to yield the first exponents for a number (i.e. a^2, a^3, and a^4).
 # Help Bob finish the code.
 '''
 def simpleGeneratorFun(): 
-	yield 1
-	yield 2
-	yield 3
+	yield #...
+	yield #...
+	yield #...
 
-x = simpleGeneratorFun() 
+x = simpleGeneratorFun()
 
-print(next(x)) 
-print(next(x)) 
+print(next(x))
+print(next(x))
 print(next(x))
 '''
 
@@ -136,7 +138,7 @@ print(test)
 '''
 
 # Q7
-# Alice added her hashed to the passwords.txt file.
+# Alice added her hash to the passwords.txt file.
 # She also created a dictionary.txt file with some passwords.
 # Read through the code Alice wrote and run the program to see how it works.
 # Update the passwords.txt file to include an entry for user 'DOG'.
