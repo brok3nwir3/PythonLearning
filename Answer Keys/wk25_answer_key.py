@@ -136,13 +136,29 @@ def hash_type(input):
     else:
         print('Unknown algorithm detected.')
 
-# Q9
+# Q9 ---BONUS---
+
+
+
+# Scroll down.
+# |
+# |
+# v
+        
+
+
+
+
+
+
+
+
 # 1) Why is the function 'toString' required?
 # The toString() function joins individual characters.
 # 2) Why is an 'if' statement required?
 # The IF statement is required to actually print a permutation.
 # 3) How is each permutation being printed?
-# Individual characters are joined with toString() and then once the IF statement evaluates to TRUE, the string is printed.
+# Individual characters are joined with toString() and then once the IF statement evaluates to TRUE, the string.
 # 4) Why are two lines matching in the function's for loop?
 # The first list calculates forward traversal of the string, the second line calculates reverse traversal of the string.
 # 5) Do you see why using a permutation library is better than trying to manually code permutation?
