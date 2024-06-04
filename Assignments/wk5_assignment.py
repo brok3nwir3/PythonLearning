@@ -1,10 +1,14 @@
+# Week 5 -
+
 # Q1
-# How many times will the word "Kerblam" be printed?
-# What is the final value of count?
-# count = 0
-# while (count < 5):
-# 	count = count + 2
-# 	print("Kerblam!")
+# a. How many times will the word "Kerblam" be printed?
+# b. What is the final value of count?
+'''
+count = 0
+while (count < 5):
+	count = count + 2
+	print("Kerblam!")
+'''
 
 
 # Q2

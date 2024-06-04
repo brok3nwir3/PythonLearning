@@ -40,12 +40,15 @@
 
 
 
-# Q1:
+
+
+
+# Q1
 sentence = 'dogs are super cool and dogs are the best animal.'
 
 print(sentence.replace('dog', 'seagull'))
 
-# Q2:
+# Q2
 '''
 My name is Alice. I wrote this program in the year 2023,
 while I worked at Seagull Inc. My program checks a long
@@ -53,7 +56,7 @@ list of awesome animals and gives them a score,
 based on how awesome they are.
 '''
 
-# Q3:
+# Q3
 crazyString = 'e-R-Ror.oU-tp-Ut.i-s.O-F-T-en.diF-Fi-cult.T-O.rea-D.Wi-tHouT.ReFo-rMA-ttIn-G'
 
 lowerized = crazyString.lower()
@@ -67,14 +70,14 @@ print(final_string)
 for word in range(len(final_string)):
     print(final_string[word])
     
-# Q4:
+# Q4
 import os
 print('The current user is: ', end="")
 print(os.getlogin())
 print('The working directory is: ', end="")
 print(os.getcwd())
 
-# Q5:
+# Q5
 item1 = 'He finished playing without a single mistake.'
 item2 = 'For the sake of Jake we started clapping.'
 item3 = 'She was waiting on the god forsaken island.'
@@ -87,13 +90,13 @@ for word in range(len(bobs_list)):
     final_string = f_remove
     print(final_string)
     
-#Q6:
+#Q6
 testString = 'Zebras ZOOM in zig-zag patterns to escape lions with zeal.'
 
 lowerize = testString.lower()
 print(lowerize.count('z'))
 
-# Q7:
+# Q7
 import os
 iterations = 50
 while iterations > 1:
