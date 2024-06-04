@@ -1,7 +1,5 @@
 # Week 9 - Quiz Answer Key
 
-# This answer key should be used to check your quiz score.
-
 # AVOID PEEKING AHEAD OF TIME!
 
 
@@ -17,27 +15,6 @@
 # |
 # |
 # v
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

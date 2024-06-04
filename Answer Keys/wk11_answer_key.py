@@ -43,7 +43,7 @@
 
 
 
-#Q1
+# Q1
 f = open("wk11_text.txt", "r")
 print(f.read())
 

@@ -1,3 +1,5 @@
+# Week 4 - 
+
 # Q1
 # Bob learned that he can import a module to generate a random number.
 # Bob hates reading documentation though.
