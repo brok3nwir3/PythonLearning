@@ -38,3 +38,16 @@ my_var = 8
 # Try modifying the variable to print the value of example_var * 2.
 
 # print(example_var)
+
+
+
+# Homework:
+
+# Read the following articles...
+# https://www.w3schools.com/python/python_syntax.asp
+# https://www.w3schools.com/python/python_variables.asp
+# https://www.w3schools.com/python/python_comments.asp
+
+# Complete the following exercises...
+# Syntax, Comments, and Variables...
+# https://www.w3schools.com/python/exercise.asp

@@ -115,3 +115,15 @@ if seagull > falcon:
 if seagull > eagle ? seagull > parrot ? seagull > falcon ? seagull > penguin:
    print("Clearly, seagulls are the greatest of all birds.")
 '''
+
+
+# Homework:
+
+# Read the following articles...
+# https://www.w3schools.com/python/python_strings_slicing.asp
+# https://www.w3schools.com/python/ref_string_strip.asp
+
+
+# Complete the following exercises...
+# Numbers, and Strings...
+# https://www.w3schools.com/python/exercise.asp

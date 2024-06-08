@@ -87,3 +87,15 @@ print(bool(a==b))
 
 print(bool(15))
 '''
+
+
+# Homework:
+
+# Read the following articles...
+# https://www.w3schools.com/python/python_datatypes.asp
+# https://www.w3schools.com/python/ref_func_type.asp
+# https://www.w3schools.com/python/python_booleans.asp
+
+# Complete the following exercises...
+# Data Types, Booleans...
+# https://www.w3schools.com/python/exercise.asp
