@@ -1,4 +1,4 @@
-# Week 4 - 
+# Week 4 - If statements continued, random library, replace() and format() functions.
 
 # Q1
 # Bob learned that he can import a module to generate a random number.
@@ -102,3 +102,18 @@ v_l.append(v_f)
 #Step5 - ?
 v_c = v_l[0]+v_l[1]+v_l[2]+v_l[3]+v_l[4]
 password = v_c[:10]
+
+
+
+# Homework:
+
+# Read the following articles...
+# https://www.w3schools.com/python/python_conditions.asp
+# https://www.w3schools.com/python/module_random.asp
+# https://www.w3schools.com/python/ref_string_replace.asp
+# https://www.w3schools.com/python/ref_func_format.asp
+
+
+# Complete the following exercises...
+# Operators, and IF/ELSE
+# https://www.w3schools.com/python/exercise.asp
