@@ -1,103 +1,73 @@
-# Python Classes - Project 1
-# Author: Phil van der Linden
-# Date: 09/01/2023
+# Python Print Loop Programs - Project 1
 
-### Hide & Seek Game ###
 
-import random
-import os
+# Program 1 Output (Right Triangle):
 
-# Create a list of several locations.
-locations = ["Tree House", "Bushes", "Creek", "Garden", "Garage", "Sandbox", "Flowerbed", "Monkey Bars"]
+# *
+# **
+# ***
+# ****
 
-# Create a few players as dictionaries.
-player1 = {
-  "name": "John",
-  "hidden": True,
-  "location": "Placeholder"
-}
-player2 = {
-  "name": "Alex",
-  "hidden": True,
-  "location": "Placeholder"
-}
-player3 = {
-  "name": "Greg",
-  "hidden": True,
-  "location": "Placeholder"
-}
-player4 = {
-  "name": "Tina",
-  "hidden": True,
-  "location": "Placeholder"
-}
 
-# Hide each player in a random location, using a random index.
-# The index range (0,8) translates to 0-7.
-# Note: It's possible for more than one player to be in the same location.
+for i in range(5):
+    for j in range(i):
+        print("*", end="")
+    print() # new line after each row
 
-player1["location"] = locations[random.randrange(0,8)]
-player2["location"] = locations[random.randrange(0,8)]
-player3["location"] = locations[random.randrange(0,8)]
-player4["location"] = locations[random.randrange(0,8)]
 
-game_finished = False
+# Program 2 Output (Diamond):
 
-print("\n ~~~~~~ The Hide & Seek Game! ~~~~~~\nCan you find all four of the hidden players?")
+#   *  
+#  *** 
+# *****
+#  *** 
+#   *  
 
-while game_finished == False:
-    print("\nPlayers might be hidden in one of the following locations...\n\
-        1. Tree House\n\
-        2. Bushes\n\
-        3. Creek\n\
-        4. Garden\n\
-        5. Garage\n\
-        6. Sandbox\n\
-        7. Flowerbed\n\
-        8. Monkey Bars\n")
+
+n = 3
+# Top of the diamond (First three rows).
+for i in range(n): #Start at 0, end at 3.
+    for j in range(n - i - 1):
+        print(' ', end='')
+    for j in range(2 * i + 1):
+        print('*', end='')
+    print()
+# Bottom of the diamond (Last two rows).
+for i in range(n - 1): #Start at 0, end at 2.
+    for j in range(i + 1):
+        print(' ', end='')
+    for j in range(2*(n - i - 1) - 1):
+        print('*', end='')
+    print()
+
+
+# Program 3 Output (Upside-down Pyramid):
+
+# 1010101
+#  10101 
+#   101  
+#    1 
+
+
+n = 4
+for i in range(1, n+1): # Start at 1, end at 5.
     
-    # Take the user input and cast it from a string to an actual integer.
-    # We then subtract the user input by 1 to account for indices starting at 0.
-    guess = int(input("Where would you like to look? Choose a number 1-8: ")) - 1
+    for j in range(i-1): # Start at 0, end at 1-1, 2-1, 3-1, 4-1.
+        print(' ', end='')
+    
+    for j in range(2*(n-i)+1): # Start at 0, end at 7, 5, 3, 1.
+        if j % 2 == 0:
+            print('1', end='')
+        else:
+            print('0', end='')
+    print()
 
-    def player1_check(num):
-        if player1["location"] == locations[num] and player1["hidden"] == True:
-            print("\n* You found " + player1["name"] + "! *")
-            player1["hidden"] = False
-        elif player1["location"] != locations[num] and player1["hidden"] == True:
-            print("\n" + player1["name"] + " is still hidden...")
 
-    def player2_check(num):
-        if player2["location"] == locations[num] and player2["hidden"] == True:
-            print("\n* You found " + player2["name"] + "! *")
-            player2["hidden"] = False
-        elif player2["location"] != locations[num] and player2["hidden"] == True:
-            print("\n" + player2["name"] + " is still hidden...")
+# Some helpful solution references (Q9)...
 
-    def player3_check(num):
-        if player3["location"] == locations[num] and player3["hidden"] == True:
-            print("\n* You found " + player3["name"] + "! *")
-            player3["hidden"] = False
-        elif player3["location"] != locations[num] and player3["hidden"] == True:
-            print("\n" + player3["name"] + " is still hidden...")
+# How range works: https://www.w3schools.com/python/ref_func_range.asp
 
-    def player4_check(num):
-        if player4["location"] == locations[num] and player4["hidden"] == True:
-            print("\n* You found " + player4["name"] + "! *")
-            player4["hidden"] = False
-        elif player4["location"] != locations[num] and player4["hidden"] == True:
-            print("\n" + player4["name"] + " is still hidden...")
+# Example solutions here: https://pynative.com/print-pattern-python-examples
 
-    os.system('clear')
-    player1_check(guess)
-    player2_check(guess)
-    player3_check(guess)
-    player4_check(guess)
-
-    # If there are no more hidden players, end the game.
-    if player1["hidden"] == False and \
-    player2["hidden"] == False and \
-    player3["hidden"] == False and \
-    player4["hidden"] == False:
-        game_finished = True
-        print("\n*** Great work! You found everyone! \o/ ***")
+# A cool solution to a similar problem:
+# https://stackoverflow.com/questions/22287100/how-to-create-patterns-in-python-using-nested-loops

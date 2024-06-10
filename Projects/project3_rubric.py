@@ -1,32 +1,31 @@
 # Project 3 (100 Points)
 
-# For Project 3 we're making three Python modules that uses APIs.
-# Your finished program should load all of the modules you created.
-# The modules should make use of three distinct APIs.
-# Each API should have its function within the program.
-# When the program runs, the user should be able to select an individual function to run.
-# Any API tokens/keys should be stored in an environment file.
-# Bonus: Offer the user the option to call multiple functions at once.
-
+# For Project 3 we're making a tic-tac-toe game.
 # You may use Internet resources, but your code should NOT be a copy of someone elses work.
 # This is your project, so take pride in what you've learned, and write your own code.
 
 # You will demonstrate your finished project, once it's completed.
-# You should be able to show a working module, and explain how the code works.
+# You should be able to show a working game, and explain how the code works.
+
+# Bonus: Earn some kudos by adding some flavor to the program.
+# Adding ASCII art, style elements, etc. will make your game unique.
 
 # Grading Rubric...
-# 1) Does the program work? (60 Points)
+# 1) Does the game work? (60 Points)
 #   a) Demo walk-through.
-#   b) Do your modules load?
-#   c) Do all three API calls work?
-#   d) Are all API keys stored in an environment file?
+#   b) Can either player win?
+#   c) Can you get each type of win?... Diagonal, vertical, or horizontal?
+#   d) Does the game detect when there is a tie?
+#   e) Can a player crash the game if they enter invalid input?
 # 2) Can you explain the code, and answer questions about the code? (40 Points)
-#   a) Does your program have a theme? What type of APIs did you use?
-#   b) What are the names of your three modules and where are they imported?
-#   c) Do any of your APIs require a key? How did you pull the key data?
-#   d) How did you parse the JSON data? Did you need to do any data formatting?
-#   e) What type of loop/s did you use in the main program? How are they entered/exited?
-# 3) Does your program have any bonus flavor? (10 Points)
-#   a) Does the program include ASCII art or fun formatting?
-#   b) Can the user call multiple functions at once?
-#   c) Do the APIs return a variety of data, i.e. text, images, etc?
+#   a) How is the board state stored?
+#   b) How is x/o selection verified?
+#   c) How are the different win conditions determined?
+#   d) How does the game determine which player won?
+# 3) Does your game have any bonus flavor? (10 Points)
+#   a) ASCII Art?
+#   b) Screen refresh?
+#   c) Current player displayed?
+#   d) Winner message?
+#   e) Screen refresh delays?
+#   f) Other fancy features?

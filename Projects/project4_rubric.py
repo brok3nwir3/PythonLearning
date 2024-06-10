@@ -1,49 +1,32 @@
-# Project 4 (100 Points) - Encrypt/Decrypt
+# Project 4 (100 Points)
 
-# This project will test your ability to do the following...
-# 1. Manipulate data.
-# 2. Read local files.
-# 3. Write new local files.
-# 4. Use encryption/decryption.
-# 5. Encode/decode binary or hexadecimal.
+# For Project 4 we're making three Python modules that uses APIs.
+# Your finished program should load all of the modules you created.
+# The modules should make use of three distinct APIs.
+# Each API should have its function within the program.
+# When the program runs, the user should be able to select an individual function to run.
+# Any API tokens/keys should be stored in an environment file.
+# Bonus: Offer the user the option to call multiple functions at once.
 
-# The goal of the project is to write two programs; one to encrypt a file and another to decrypt a file.
-# Note: Alternatively, the programs can be combined into a single program.
+# You may use Internet resources, but your code should NOT be a copy of someone elses work.
+# This is your project, so take pride in what you've learned, and write your own code.
 
-# The first program will read a local text file containing normal ASCII.
-# As the program reads the file, it will convert the string data on each line to either binary or hexadecimal (your choice).
-# Then the program will then encrypt the hexadecimal text (free choice on which encryption library to use).
-# Note: Some encryption modules include... Fernet, RSA, AES, etc. (most of these will be part of the Cryptography library).
-# The encryption should save the key value (if one is used) to a file called "key.txt" or something similar.
-# The encrypted text should then be written to a new file called "encrypted.txt"
-# Bonus: Give the output file name "<original_name>_encrypted.txt" or "encrypted_<original_name>.txt"
-
-# The second prgram will read the files contents and decrypt them, using a key.
-# The program will then convert the file back to ASCII from binary or hex.
-# The decrypted text will then be written to a new file called "decrypted.txt"
-# Bonus: Give the output file name "<original_name>_decrypted.txt" or "decrypted_<original_name>.txt"
-
-# The final program should be able to encrypt and decrypt two .txt test files.
-
-# The first test file contains:
-# hello
-
-# The second test file contains:
-# 3ncrypT n PyThoN... & d3Crypt n PyTh0n!
+# You will demonstrate your finished project, once it's completed.
+# You should be able to show a working module, and explain how the code works.
 
 # Grading Rubric...
 # 1) Does the program work? (60 Points)
-#   a) The program reads a local text file.
-#   b) Converts/unconverts strings to binary/hex.
-#   c) Encrypts/decrypts the strings.
-#   d) Writes a new local file with the encrypted/decrypted data.
+#   a) Demo walk-through.
+#   b) Do your modules load?
+#   c) Do all three API calls work?
+#   d) Are all API keys stored in an environment file?
 # 2) Can you explain the code, and answer questions about the code? (40 Points)
-#   a) Which encryption module did you use? Why?
-#   b) How are files read/written?
-#   c) In laymans terms, how was the original file encrypted?
-#   d) How did you encode/decode the ASCII?
-#   e) How did the program know which file to encrypt/decrypt?
+#   a) Does your program have a theme? What type of APIs did you use?
+#   b) What are the names of your three modules and where are they imported?
+#   c) Do any of your APIs require a key? How did you pull the key data?
+#   d) How did you parse the JSON data? Did you need to do any data formatting?
+#   e) What type of loop/s did you use in the main program? How are they entered/exited?
 # 3) Does your program have any bonus flavor? (10 Points)
-#   a) Does the program include ASCII art?
-#   b) File naming format (bonus points).
-#   c) Was any other interesting terminal output included?
+#   a) Does the program include ASCII art or fun formatting?
+#   b) Can the user call multiple functions at once?
+#   c) Do the APIs return a variety of data, i.e. text, images, etc?
