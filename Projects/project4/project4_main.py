@@ -1,6 +1,6 @@
+# Python API Program - Project 4
 # Author: Phil van der Linden
-# This is the Project 3 main file.
-# From this file we run our three APIs for demonstration.
+# From this (main) file we run our three APIs for demonstration.
 
 from api1 import *
 from api2 import *
