@@ -1,5 +1,5 @@
 ### Hide & Seek Game ###
-# Project 2
+# Project 1
 # Author: Phil van der Linden
 # Date: 09/01/2023
 

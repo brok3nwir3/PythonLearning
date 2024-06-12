@@ -1,4 +1,4 @@
-# Python Print Loop Programs - Project 1
+# Python Print Loop Programs - Project 2
 
 
 # Program 1 Output (Right Triangle):
