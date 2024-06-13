@@ -109,4 +109,4 @@ if b > a:
     print("b is greater than a")
 
 # Q10
-# Alice needs to replace the question mark characters with the '&' character.
+# Alice needs to replace the question mark characters with the 'and' operator.

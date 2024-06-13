@@ -25,11 +25,15 @@
 # Inheritance:
 # a. The student class demonstrates single inheritance from the affiliate class.
 # b. The student_worker class demonstrates multiple inheritance from the employee class and student class.
-# c. The adjunct class demonstrates multilevel inheritance from the affiliate, employee, and projessor classes.
+# c. The adjunct class demonstrates multilevel inheritance from the affiliate, employee, and professor classes.
 # d. The affiliate class demonstrates hierarchical inheritance with students, employees, and alumni classes.
-# d. All of the classes together will demonstrate hybrid inheritance.
+# e. All of the classes together will demonstrate hybrid inheritance.
 
-# Other requirements:
+# Other Requirements:
 # i. At least one object should be created for each class.
 # ii. Each class should have at least one property.
 # iii. Create two functions. These can be in one or more classes.
+
+# Reference Diagram:
+# This diagram will help you visualize the relationships between the classes.
+# https://docs.google.com/presentation/d/1EOFjwKoclIsY7z0AZNIQbBDb6foeBPSxJkK8wPa6YY8/edit?usp=sharing

@@ -111,6 +111,3 @@ while i <= 6:
 # Complete the following exercises...
 # Lists, While Loops, and For Loops.
 # https://www.w3schools.com/python/exercise.asp
-
-# *** Start Project 1 ***
-# See the Projects folder.

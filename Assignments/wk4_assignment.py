@@ -2,8 +2,8 @@
 
 # Q1
 # Bob learned that he can import a module to generate a random number.
-# He started writing a dice rolling program, that rolls a number 1-6.
-# Bob hates reading documentation though.
+# He started writing a dice rolling program, that roll a number in range 1-6.
+# Bob heard about a .range() function for the random library, but Bob hates reading documentation.
 # Help him finish his dice rolling program, using the documentation for the random module.
 # https://docs.python.org/3/library/random.html
 # Note: Bob is using a comma in his print statement in order to print both a string and the value of 'roll'.

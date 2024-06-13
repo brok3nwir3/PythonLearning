@@ -54,11 +54,7 @@ best_animals = ["penguins", "bears", "zebras", "seagulls"]
 # Help Bob write his algorithm, one step at a time, in pseudo code.
 
 
-# Q8
-# Expanding on Bobs algorithm assignment.
-# Write the game of Hide-and-Seek as an actual Python program.
-# You can write it as simply as you want, but it must include the following:
-# 1) A few players.
-# 2) A count down.
-# 3) Some actions for the players.
-# Creativity is encouraged!
+
+
+# *** Start Project 1 ***
+# See the Projects folder.
