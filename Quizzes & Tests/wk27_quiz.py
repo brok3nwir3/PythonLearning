@@ -1,4 +1,4 @@
-# Week 27 - A review of week 22-26 content.
+# Week 27 Quiz - A review of week 22-26 content.
 
 
 # Q1
@@ -39,7 +39,7 @@ x, y = a
 
 
 # Q4
-# Which of the following libraries would be helpful for rearranging the elements into different configurations?
+# Which of the following libraries would be helpful for rearranging elements into different configurations?
 # A) permutations
 # B) os
 # C) copy
@@ -62,7 +62,7 @@ class user:
 # A) user1 = user(attribute1='abc', attribute2=4567, attribute3='eeeee', attribute4=99)
 # B) user1 = user(attribute1='abc', attribute2=4567, attribute3='eeeee')
 # C) user1 = user('abc', 4567, 'eeeee')
-# D) user1 = user(1, 1, 1)
+# D) user1 = user(1, 1, 1, 1)
 # E) All of these objects (A-D) are valid.
 
 
@@ -86,10 +86,10 @@ var2 = 2
 var3 = 3
 var4 = var1,var2,var3
 '''
-# A) Retrieval
+# A) Packing
 # B) Severing
 # C) Reallocation
-# D) Packing
+# D) Retrieval
 
 
 # Q8
@@ -114,7 +114,7 @@ my2d.insert(0, [123, 456, 789])
 
 
 # Q10
-# Which part of the following lambda is equivalent to an 'if' clause in a normal function?
+# Which part of the following lambda is equivalent to an 'else' clause in a normal function?
 '''
 is_greater = lambda x: x > 100 and "greater than 100" or "less than 100"
 '''
