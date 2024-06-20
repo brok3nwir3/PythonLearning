@@ -1,4 +1,10 @@
-# Week 21 - A hands-on review test (post-spring break), covering weeks 15-20.
+# Week 21 Test - A hands-on review test, covering weeks 15-20.
+
+# This test is for your benefit. If you do not know an answer, make your best guess and move to the next question.
+# Once all questions have been attempted, check the answer key against your work.
+# Use your incorrect answers as a gauge of your knowledge and a guide for future improvement.
+# It's okay if you miss some questions. We're here to learn and get better.
+
 
 # Q1
 # Create a 5x5 2D array, using list comprehension.

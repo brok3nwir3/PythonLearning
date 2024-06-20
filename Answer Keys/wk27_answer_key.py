@@ -43,32 +43,13 @@
 
 
 
-# Q1
-# D
-
-# Q2
-# C
-
-# Q3
-# D
-
-# Q4
-# A
-
-# Q5
-# E
-
-# Q6
-# D
-
-# Q7
-# A
-
-# Q8
-# D
-
-# Q9
-# B
-
-# Q10
-# D
+# Q1: D) Setter
+# Q2: C) A function being passed to another function.
+# Q3: D) Unpacking
+# Q4: A) permutations
+# Q5: E) All of these objects (A-D) are valid.
+# Q6: D) H 44
+# Q7: A) Packing
+# Q8: D) array
+# Q9: B) Hybrid, Hierarchical, Single, Multiple, Multilevel
+# Q10: D) or

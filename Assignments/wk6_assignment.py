@@ -67,3 +67,15 @@ animals = ["penguin", "zebra", "seagull"]
 # * * * *
 # * * * *
 
+
+
+# Homework:
+
+# Read the following articles...
+# https://www.w3schools.com/python/python_operators.asp
+# https://www.w3schools.com/python/ref_func_range.asp
+# https://www.tutorialspoint.com/python-end-parameter-in-print
+
+# Complete the following exercises...
+# Operators
+# https://www.w3schools.com/python/exercise.asp

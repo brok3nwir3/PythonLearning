@@ -1,12 +1,13 @@
-# Week 9 - A somewhat comprehensive mulitple choice quiz.
+# Week 9 Test - A test of the content covered in weeks 1-8.
 
-# This midterm is for your benefit. If you do not know an answer, make your best guess.
-# When the answer key has been dispersed, check your score and see what you missed.
-# Use your missed answers as a gauge of your knowledge and a guide for future improvement.
+# This test is for your benefit. If you do not know an answer, make your best guess and move to the next question.
+# Once all questions have been attempted, check the answer key against your work.
+# Use your incorrect answers as a gauge of your knowledge and a guide for future improvement.
 # It's okay if you miss some questions. We're here to learn and get better.
 
+
 # Q1
-# What is the 'animal' in the following code?
+# What is 'animal' in the following code?
 '''
 animal = 'zebra'
 '''
@@ -16,8 +17,9 @@ animal = 'zebra'
 # D) variable
 # E) library
 
+
 # Q2
-# What is print an example of, in the following code?
+# In the following code, what is print an example of?
 '''
 print("Hello, World!")
 '''
@@ -27,20 +29,21 @@ print("Hello, World!")
 # D) variable
 # E) function
 
+
 # Q3
 # What type of language is Python?
-
 # A) functional
 # B) compiled
 # C) procedural
 # D) interpreted
 # E) front end
 
+
 # Q4
 # T/F: Python is a dynamically typed language.
-
 # A) True
 # B) False
+
 
 # Q5
 # What will be returned by the following code?
@@ -52,6 +55,7 @@ print(bool(4==4.0))
 # C) 4.0
 # D) False
 # E) Type Error
+
 
 # Q6
 # What will be printed by the following code?
@@ -65,6 +69,7 @@ print(y)
 # C) Assignment Error
 # D) False
 
+
 # Q7 What will be returned by the following code?
 '''
 f = "seagull"
@@ -75,11 +80,12 @@ print(f[3:5])
 # C) gu
 # D) agu
 
-# Q8
-# T/F: Python doesn't feature garbage collection.
 
+# Q8
+# T/F: Python does NOT feature garbage collection.
 # A) True
 # B) False
+
 
 # Q9 What will be returned by the following code?
 '''
@@ -92,17 +98,18 @@ print(fruits[-2])
 # D) kiwi
 # E) cherry
 
+
 # Q10
 # What is the programming term for combining two items?
-
 # A) slicing
 # B) indicing
 # C) concatenating
 # D) temping
 # E) iterating
 
+
 # Q11
-# What does 'w' contain, in the following code?
+# What is 'w' in the following code?
 '''
 w = ["abc", 34, True, 40, "male"] 
 '''
@@ -111,8 +118,9 @@ w = ["abc", 34, True, 40, "male"]
 # C) set
 # D) dictionary
 
+
 # Q12
-# What does 'h' contain, in the following code?
+# What is 'h' in the following code?
 '''
 h = {
   "brand": "Ford",
@@ -124,6 +132,7 @@ h = {
 # B) tuple
 # C) set
 # D) dictionary
+
 
 # Q13
 # How many times will the word "BOOM" be printed?
@@ -139,6 +148,7 @@ while (count < 7):
 # C) 3, 6
 # D) 4, 8
 
+
 # Q14
 # What will the following print statement return?
 '''
@@ -151,6 +161,7 @@ print(result)
 # B) 2
 # C) 13
 # D) 4
+
 
 # Q15
 # What pattern is made by the following code?
@@ -181,6 +192,7 @@ for i in range(5):
 #  ***
 # ****
 
+
 # Q16
 # What is the starting value for 'n' ?
 '''
@@ -192,6 +204,7 @@ for n in x:
 # B) 1
 # C) 0
 # D) NULL
+
 
 # Q17
 # What will the final value of 'n' be?
@@ -210,6 +223,7 @@ print(t)
 # C) 8, 15
 # D) 15, 8
 
+
 # Q18
 # What should replace 'XXXXXX' in the following code, to make it work?
 '''
@@ -221,20 +235,21 @@ XXXXXX my_function():
 # C) import
 # D) funct
 
+
 # Q19
 # T/F: A while loop is used when the number of iterations is known.
-
 # A) True
 # B) False
 
-# Q20
-# Which of the following is not a built in Python data type?
 
+# Q20
+# Which of the following is NOT a built in Python data type?
 # A) bool
 # B) float
 # C) string
 # D) int
 # E) double
+
 
 # Q21
 # Which choice explains what the .split() method will do in the following code?
@@ -249,9 +264,10 @@ print(x)
 # D) Split the string into a list, using whitespace as the separator.
 # E) Split the string into a single variable, because no separator is provided.
 
+
 # Q22
-# Which of the following choices should be added to the IF statement,
-# in order to trigger the print statment.
+# Which of the following options should be used in the IF statement,
+# in order to meaningfully trigger the print statment?
 '''
 value1 = 38.9
 value2 = 32.3
@@ -264,9 +280,9 @@ if ...
 # C) value2 > value1 and value1 < value3:
 # D) value3 < value2 and value1 < value2:
 
-# Bonus Questions
-# Which year was Python released?
 
+# BONUS Question:
+# Which year was Python released?
 # A) 1973
 # B) 2002
 # C) 1987
