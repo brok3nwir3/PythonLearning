@@ -1,4 +1,4 @@
-# Week 21 - Quiz Answer Key
+# Week 21 Quiz - Answer Key
 
 # AVOID PEEKING AHEAD OF TIME!
 
@@ -54,9 +54,11 @@ for i in range(rows):
     my_2d.append(col)
 print(my_2d)
 
+
 # Q2
 for row in my_2d:
         print(row)
+
 
 # Q3
 import requests
@@ -66,8 +68,10 @@ py_obj = json.loads(response.text)
 json_parsed = py_obj['ad']
 print(json_parsed)
 
+
 # Q4
 # D) Type, Value, and Reference Count.
+
 
 # Q5
 x = 1
@@ -76,12 +80,15 @@ z = x+y
 print(z)
 print(x,y)
 
+
 # Q6
 print("Really big string... " \
      "spanned to multiple lines...")
 
+
 # Q7
 print(f"There are {5} working days in a week, {52} working weeks in a year, which gives us {5 * 52} working days in a year.") 
+
 
 # Q8
 my_2d = []
@@ -97,6 +104,7 @@ for i in range(rows):
     my_2d.append(col)
 print(my_2d)
 
+
 # Q9
 class Car:
 
@@ -108,6 +116,7 @@ car_1 = Car('Ford', 'F-150')
 
 print(car_1.make)
 print(car_1.model)
+
 
 # Q10
 class Car:

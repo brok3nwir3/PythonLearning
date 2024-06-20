@@ -84,7 +84,7 @@ item3 = 'She was waiting on the god forsaken island.'
 bobs_list = [item1, item2, item3]
 
 for word in range(len(bobs_list)):
-    ake = bobs_list[word].replace('ake','') #Note capitals are skipped.
+    ake = bobs_list[word].replace('ake','') # Note: Matches containing capital letters are skipped.
     w_remove = ake.replace('w', '')
     f_remove = w_remove.replace('t', '')
     final_string = f_remove
@@ -98,16 +98,22 @@ print(lowerize.count('z'))
 
 # Q7
 import os
-iterations = 50
+import time
+iterations = 15
 while iterations > 1:
     os.system('clear')
     print("\n*----")
+    time.sleep(0.25)
     os.system('clear')
     print("\n**---")
+    time.sleep(0.25)
     os.system('clear')
     print("\n***--")
+    time.sleep(0.25)
     os.system('clear')
     print("\n****-")
+    time.sleep(0.25)
     os.system('clear')
     print("\n*****")
+    time.sleep(0.25)
     iterations = iterations - 1

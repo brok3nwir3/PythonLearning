@@ -1,8 +1,8 @@
-# Week 14 - A short mulitple choice quiz for 2D arrays.
+# Week 14 Quiz - A short mulitple choice quiz for 2D arrays (weeks 10-13).
+
 
 # Q1
 # Which of the following would be considered a 1D array in Python?
-
 # A) string
 # B) function
 # C) list
@@ -11,7 +11,6 @@
 
 # Q2
 # Which of the following best describes a 2D array?
-
 # A) An expanded dictionary.
 # B) Imported storage.
 # C) Benevolent crustaceans. 
@@ -20,7 +19,6 @@
 
 # Q3
 # Which of the following would most likely be a use case for a 2D array?
-
 # A) A start-up script.
 # B) A random number generator.
 # C) A port scanner.
@@ -59,8 +57,8 @@ T = [[11, 12, 5, 2], [15, 6,10], [10, 8, 12, 5], [12,15,8,6]]
 print(T[1][2])
 '''
 # A) 12
-# B) [15, 6,10], [10, 8, 12, 5]
-# C) 2
+# B) [11, 12, 5, 2], [15, 6,10]
+# C) [15, 6,10], [10, 8, 12, 5]
 # D) 10
 # E) 6
 
@@ -78,8 +76,8 @@ print(T)
 # D) 11, 12, 5, 2, 15, 6, 10, 10, 8, 12, 5, 0, 5, 11, 13, 6, 12, 15, 8, 6
 
 # Q8
-# Manually initializing and populating a list without using any advanced features or constructs in Python is known as creating a 1D list using...
-
+# Manually initializing and populating a list without using any advanced features or constructs in Python,
+# is known as creating a 1D list using...
 # A) Slicing
 # B) Naive Methods
 # C) Concatenating

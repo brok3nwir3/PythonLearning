@@ -34,8 +34,9 @@ x, y = a
 '''
 # A) Slicing
 # B) Parameterizing
-# C) Input Exchange
+# C) Assignment Exchange
 # D) Unpacking
+# E) Packing
 
 
 # Q4
@@ -90,6 +91,7 @@ var4 = var1,var2,var3
 # B) Severing
 # C) Reallocation
 # D) Retrieval
+# E) Unpacking
 
 
 # Q8
@@ -122,3 +124,4 @@ is_greater = lambda x: x > 100 and "greater than 100" or "less than 100"
 # B) and
 # C) x >
 # D) or
+# E) =

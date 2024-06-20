@@ -3,6 +3,7 @@
 # Note: This link will be helpful for this assignment:
 # https://developers.google.com/edu/python/regular-expressions
 
+
 # Q1
 # Import the regex module and give the alias 'reggie'
 # Leave the import uncommented; we'll use it through this assignment.
@@ -49,4 +50,3 @@ var2 = 'goatgoatgoatgoatgoat'
 
 alice_var1 = 'alice99@gmail.com'
 alice_var2 = 'alice.com'
-
