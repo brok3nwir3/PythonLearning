@@ -1,9 +1,11 @@
-# Week 27 - The .join() function, pickling/unpickling, and the ipaddress module.
+# Week 28 - The .join() function, pickling/unpickling, and the ipaddress module.
 
 # Q1
 # Bob was interviewing for a software engineering position at SmallMart. 
 # They asked Bob to write a program that identifies the largest number in a list and then prints the number.
-# Bob is curious how you would approach this problem. Give it a try.
+# Bob is curious how you would approach this problem.
+# Try to solve this problem without using the Internet.
+# If you get stuck, then use the Internet.
 
 interview_list = [345, 22, 89, 9, 705, 11, 64, 703]
 
@@ -96,15 +98,20 @@ import os
 # Bob is happy with the code that returns his IP address.
 # Bob now wants to have the returned IP address stored as a variable.
 # Help Bob store the command output to a variable.
+# Note: If your variable is storing the value '0', you're on the right track... Check the Internet for help!
 
 import os
 
 
 # Q9
-# Alice noticed that the 'os.popen()' command reads the data from the subprocess pipe one character at a time.
-# Help Alice write some code to recreate the strings.
+# Alice wants to parse the result of a ping with Python instead of using some Bash commands.
+# Her code currently returns one character of output at a time.
+# Help Alice write update her code to recreate the strings, one word per line.
 # BONUS: Print a 'packet received' message if the packet was received, and a failure message otherwise.
-
+'''
 import os 
 test_ping = os.popen("ping -c 1 8.8.8.8 ").read()
 
+for a in test_ping:
+    print(a)
+'''

@@ -14,7 +14,7 @@
 # 1. Create a list of 5-10 locations (strings) for players to hide at.
 # 2. Create 3-4 dictionaries called "player1", "player2", etc.
 # 3. Give each dictionary the following properties: name, location, hidden.
-#   a. For each of the dictionaries, set player name strings, set location to "Placeholder", and hidden to boolean True.
+#   a. For each of the dictionaries manually set a player name string, a location of "Placeholder", and hidden to boolean "True".
 # 4. Import the random library and set a random location for each player.
 #   a. You'll need to determine how many indices there are for your locations list.
 #   b. If you created 6 locations, then your indices would be 0-5.
