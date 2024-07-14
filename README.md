@@ -26,5 +26,5 @@ _Note: Your code might have some differences from the official answers for assig
 
 ## Donate
 Has this repo brought you value? If so, please consider donating. Your donations help incentivize me to keep this project updated and to create new content. Any amount helps, and I'd be very thankful for it!
-**[Donate via PayPal](https://www.paypal.com/paypalme/brok3nwir3)**
-![paypal-icon](https://github.com/user-attachments/assets/b4136392-ac2e-4be7-a4a7-bbcfd1b4e5ae)
+
+![paypal-icon](https://github.com/user-attachments/assets/b4136392-ac2e-4be7-a4a7-bbcfd1b4e5ae) **[Donate via PayPal](https://www.paypal.com/paypalme/brok3nwir3)**
