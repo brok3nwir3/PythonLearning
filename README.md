@@ -1,6 +1,6 @@
 # PythonLearning
 ##### Learn or practice Python programming with this repo!
-> _This repo was created to help beginners learn to code in Python for free. It is my sincere hope that this content aids you in your Python journey and challenges you to improve your skills. I maintain this project by myself and really appreciate donations (see below)._
+> _This repo was created to help beginners learn to code in Python for free. It is my sincere hope that this content aids you in your Python journey and challenges you to improve your skills. I maintain this project by myself and really appreciate any donations (see below)._
 
 ## Usage
 Open the [Assignments](https://github.com/brok3nwir3/PythonLearning/tree/main/Assignments) folder and start answering questions (beginning at week 1). Once you've attempted each question, use the [Answer Keys](https://github.com/brok3nwir3/PythonLearning/tree/main/Answer%20Keys) folder to compare your answers against the official answers. Check the bottom of each assignment for homework or project prompts (see the [Projects](https://github.com/brok3nwir3/PythonLearning/tree/main/Projects) folder). Tests and quizzes are assigned every few weeks, and can be located in the [Quizzes & Tests](https://github.com/brok3nwir3/PythonLearning/tree/main/Quizzes%20&%20Tests) folder.
@@ -26,4 +26,4 @@ _Note: Your code might have some differences from the official answers for assig
 
 ## Donate
 Has this repo brought you value? If so, please consider donating. Your donations help incentivize me to keep this project updated and to create new content. Any amount helps, and I'd be very thankful for it!
-![paypal](https://github.com/user-attachments/assets/f82c6c2c-c684-474f-b10e-a25382cf7c41) **[Donate via PayPal](https://www.paypal.com/paypalme/brok3nwir3)**
+![paypal-logo-0-140x140-2289239429](https://github.com/user-attachments/assets/d1dc3318-10cb-4746-970c-1b4a36c1a0ab) **[Donate via PayPal](https://www.paypal.com/paypalme/brok3nwir3)**
