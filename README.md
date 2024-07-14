@@ -11,9 +11,9 @@ _Note: Your code might have some differences from the official answers for assig
  1. Install an interactive development environment (IDE), such as [Visual Studio Code](https://code.visualstudio.com/download). ...Psst! It's free to download/use!
  2. Install and/or update Git. If you don't know how, click [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
  3. Create a folder for your GitHub projects (if you don't have one already).
- 4. Inside your GitHub project folder, clone this repo. Use this command: 
-`git clone https://github.com/brok3nwir3/PythonLearning.git`
- 5. Once you've cloned this repo, you can start working on the first assignment (wk1_assignment.py).
+ 4. Inside your GitHub project folder, clone this repo.
+Use this command: `git clone https://github.com/brok3nwir3/PythonLearning.git`
+ 6. Once you've cloned this repo, you can start working on the first assignment (wk1_assignment.py).
 
 ## Helpful Resources
 
