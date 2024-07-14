@@ -16,6 +16,7 @@ _Note: Your code might have some differences from the official answers for assig
 
 ## Helpful Resources
 
+
 | Install | Link |
 | ------ | ------ |
 | Ubuntu Linux | https://ubuntu.com/download/desktop |
@@ -25,7 +26,4 @@ _Note: Your code might have some differences from the official answers for assig
 
 ## Donate
 Has this repo brought you value? If so, please consider donating. Your donations help incentivize me to keep this project updated and to create new content. Any amount helps, and I'd be very thankful for it!
-|  |  |
-|--|--|
-| **[Donate via PayPal](https://www.paypal.com/paypalme/brok3nwir3)**
- |  |
+![paypal](https://github.com/user-attachments/assets/f82c6c2c-c684-474f-b10e-a25382cf7c41) **[Donate via PayPal](https://www.paypal.com/paypalme/brok3nwir3)**
