@@ -125,6 +125,19 @@ for data in test_ping:
         temp = ''
 
 # Version w/ BONUS code.
+
+# Scroll down.
+# |
+# |
+# v
+        
+
+
+
+
+
+
+        
 trigger = False
 received = False
 temp = ''
