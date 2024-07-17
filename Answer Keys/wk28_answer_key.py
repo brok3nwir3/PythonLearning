@@ -142,12 +142,15 @@ trigger = False
 received = False
 temp = ''
 for data in test_ping:
-    if trigger == True:
+    if (trigger == True) and (data == '1' or data == '0'):
         if data == '1':
             received = True
+            trigger = False
+        else:
+            trigger = False
     if data != ' ':
         temp += data
-        if temp == 'received,':
+        if temp == 'transmitted,':
             trigger = True
     else:
         print(temp)
