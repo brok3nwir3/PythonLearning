@@ -50,15 +50,12 @@
 # To address this problem, you can cast the decimal to an integer, which will round a number like 2.5 to 3.
 # Lastly we use the final number to be the element number to print.
 num_list = [1, 2, 3, 4, 5]
-mid_element = int((len(num_list)/2)) 
+mid_element = int((len(num_list)/2))
 print(num_list[mid_element])
 
 # Q2
 original_list = [10, 90, 9, 17, 23, 81, 27, 55, 46]
-new_list = []
-for x in original_list:
-  if x % 9 == 0:
-    new_list.append(x)
+new_list = [x for x in original_list if x%9 == 0]
 print(new_list)
 
 # Q3

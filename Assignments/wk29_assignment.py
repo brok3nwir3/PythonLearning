@@ -13,10 +13,12 @@ num_list = [1, 2, 3, 4, 5]
 # Bob is preparing for an interview and wants to refresh himself on how "list comprehension" works.
 # He read the following article to remember the concept: https://www.w3schools.com/python/python_lists_comprehension.asp
 # He remembers that list comprehension is simply a way to create a new list based off an existing one.
+# However, the new list should be created using a single line, and within the square brackets of the new list.
 # Now he wants to practice what he learned by solving the following problem...
 # Given a list of numbers, create a new list from the original, but only append numbers that are divisible by 9.
 
 original_list = [10, 90, 9, 17, 23, 81, 27, 55, 46]
+new_list = []
 
 
 # Q3
