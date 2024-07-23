@@ -15,11 +15,15 @@
 # 1) Does the program work? (60 Points)
 #   a) The program scans a network range.
 #   b) The program successfully registers responses.
-#   c) the program prints the scan output.
+#   c) The program prints the scan output.
 # 2) Can you explain the code, and answer questions about the code? (40 Points)
 #   a) Which libaries did you use? Why?
 #   b) How does the scanner identify the possible hosts for the given range?
 #   c) How does the scanner identify a response?
+#   d) How does the scanner deal with broadcast (.255) or network (.0) addresses?
+#   e) Does your program include any exception handling?
 # 3) Does your program have any bonus flavor? (10 Points)
-#   a) The user can specify a network range to scan.
+#   a) The user can specify a network to scan.
 #   b) The scanner can save the scan output to a text file.
+#   c) The scanner sets a default range based on the users IP address.
+#   d) The scanner includes a timer feature to show scan duration.
