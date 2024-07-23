@@ -1,4 +1,5 @@
-# Python Classes - Project 6
+### Python Classes ###
+# Project 6
 # Author: Phil van der Linden
 # Date: 05/28/2024
 

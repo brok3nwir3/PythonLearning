@@ -1,7 +1,8 @@
-# Tic-tac-toe Game
-# (One Human Player vs One AI Player)
+### Tic-tac-toe Game (One Human Player vs One AI Player) ###
+# Project 3
 # Author: Phil van der Linden
 # Date: 01/30/2024
+
 
 import os
 import random

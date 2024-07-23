@@ -1,5 +1,7 @@
-# Python Print Loop Programs - Project 2
-
+### Python Print Loop Programs ###
+# Project 2
+# Author: Phil van der Linden
+# Date: 10/03/2023
 
 # Program 1 Output (Right Triangle):
 
