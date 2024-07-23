@@ -153,7 +153,6 @@ for data in test_ping:
         if temp == 'transmitted,':
             trigger = True
     else:
-        print(temp)
         temp = ''
 
 if received == True:

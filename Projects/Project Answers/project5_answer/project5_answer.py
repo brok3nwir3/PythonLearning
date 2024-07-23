@@ -1,4 +1,5 @@
-# Encryption Program (Project 5)
+### Encryption Program ###
+# Project 5
 # Author: Phil van der Linden
 # Date: 05/12/2024
 
