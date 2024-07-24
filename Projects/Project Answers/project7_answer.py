@@ -50,8 +50,6 @@ for char in default_target:
 
 default_target = ipaddress.ip_network(temp + '0/24')
 
-#print("DEFAULT TARGET 2:", default_target)
-
 print("The current host is \""+ hostname +"\" on network", default_target, "and is using IP address", current_ip)
 print("Which network would you like to scan?...\n")
 print("0) Press -ENTER- to run a scan against the current network:", default_target)
@@ -89,8 +87,6 @@ if selection == '1':
 os.system('clear')
 print("Host discovery scan started for network", target_network)
 start = time.perf_counter()
-
-#target_network = [ipaddress.IPv4Address('192.168.0.79'), ipaddress.IPv4Address('192.168.1.255'), ipaddress.IPv4Address('192.168.1.0'), ipaddress.IPv4Address('192.168.1.79')]
 
 trigger = False
 received = False

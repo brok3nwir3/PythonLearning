@@ -21,7 +21,7 @@
 #   b) How does the scanner identify the possible hosts for the given range?
 #   c) How does the scanner identify a response?
 #   d) How does the scanner deal with broadcast (.255) or network (.0) addresses?
-#   e) Does your program include any exception handling?
+#   e) Does your program include any exception or error handling?
 # 3) Does your program have any bonus flavor? (10 Points)
 #   a) The user can specify a network to scan.
 #   b) The scanner can save the scan output to a text file.
