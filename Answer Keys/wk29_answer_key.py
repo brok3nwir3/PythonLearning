@@ -112,9 +112,10 @@ temp = 0
 index = 0
 count = 0
 #print(len(bubble_array))
-# We use 
+# Our while loop should only run a number of times equal to the length of the array.
 while count <= len(bubble_array):
-    #print("RUN", count)
+    #print("RUN:", count)
+    # We intentionally reset the index with each iteration.
     index = 0
     for num in bubble_array:
         #print(bubble_array)
@@ -156,10 +157,10 @@ array_indices = len(unsorted_array)-1
 
 # To create a new sorted_array[], we need to run this while loop X times where X is the index length of the unsorted_array[].
 while array_indices >= 0:
-    # Each run of this loop we reset the value for the largest number and its index.
+    # Each run of this loop we arbitrarily set the value for the largest number and its index.
     largest_num = unsorted_array[0]
     largest_index = 0
-    # We then check the see if any number is larger than the default number. If so, update the number and index.
+    # We then check to see if any number is larger than the default largest. If so, update the largest number and index.
     for num in unsorted_array:
         if num > largest_num:
             largest_num = num
