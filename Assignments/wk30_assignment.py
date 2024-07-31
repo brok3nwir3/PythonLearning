@@ -58,9 +58,10 @@ print("Spot: 2")
 # Help Alice add an assert statement to her code, to check whether "r" is of type int.
 # Also, add a custom assertion error message to explain what is being checked by the assertion.
 # This article might be helpful... https://www.w3schools.com/python/ref_keyword_assert.asp
-
+'''
 j = 5
 r = j / 2.5
+'''
 
 
 # Q5
@@ -95,3 +96,4 @@ r = j / 2.5
 # B) What does the '*' or '**' represent for a functions parameter?
 # C) Which part/s of this code is a "key?": myFun(dog1='Poodle', dog2='Retriever', dog3='Beagle')
 # D) How would we write the first line of a function that takes one argument and multiple key word arguments?
+

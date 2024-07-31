@@ -168,7 +168,7 @@ while array_indices >= 0:
 
     # Some print statements for troubleshooting...
     #print("current largest num", largest_num)
-    #print("index of largest num", temp_index)
+    #print("index of largest num", largest_index)
     #print(unsorted_array)
             
     # We then add our current largest number to the beginning of our sorted_array[].
