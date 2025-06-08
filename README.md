@@ -16,13 +16,13 @@ _Note: Your code might have some differences from the official answers for assig
 
 ## Helpful Resources
 
-
 | Install | Link |
 | ------ | ------ |
 | Ubuntu Linux | https://ubuntu.com/download/desktop |
 | Virtual Box | https://www.virtualbox.org/wiki/Downloads |
 | VS Code | https://code.visualstudio.com/download |
 | Git | https://git-scm.com/book/en/v2/Getting-Started-Installing-Git |
+| W3 Schools | https://www.w3schools.com/python/default.asp |
 
 ## Donate
 Has this repo brought you value? If so, please consider donating. Your donations help incentivize me to keep this project updated and to create new content. Any amount helps, and I'd be very thankful for it!
